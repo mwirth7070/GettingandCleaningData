@@ -34,6 +34,7 @@ subjecttrain
   7352 obs. of 1 variable (subject_train.txt)
   Identification of subjects per observation in training data
   
+  
 testx 
   2947 obs. of 561 variables (X_test.txt)
   Metrics of all activities in test data
