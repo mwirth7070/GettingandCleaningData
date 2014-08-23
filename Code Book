@@ -1,19 +1,63 @@
-AveragedResults 180 obs. of 81 variables
-Sresults 180 obs. of 81 variables
-activity 6 obs. of 2 variables
-appendactivity 10299 obs. of 81 variables
-dataset 1461 of 4 variables
-features 561 obs. of 2 variables
-finaloutput 10299 obs. of 81 variables 
-meanData 10299 obs. of 46 variables
-refineData 10299 obs. of 79 variables
-stdData 10299 obs. of 33 variables
-subjecttest 2947 obs. of 1 variable
-subjecttrain 7352 obs. of 1 variable
-testx 2947 obs. of 561 variables
-testy 2947 obs. of 1 variable
-totalactivity 10299 obs. of 1 variable
-totalcore 10299 obs. of 561 variables
-totalsubject 10299 obs. of 1 variable
-trainx 7352 obs. of 561 variables
-trainy 7352 obs. of 1 variable
+AveragedResults 
+  180 obs. of 81 variables
+  This is average of the selected mean and stard deviation metrics by subject, by activity
+  
+activity 
+  6 obs. of 2 variables
+  List of activity labels
+  
+features 
+  561 obs. of 2 variables
+  Names of each feature that is being measured
+  
+finaloutput 
+  10299 obs. of 81 variables 
+  Total observations from the selected mean and stardard deviation metrics, with columns for subject and activiy
+  
+meanData 
+  10299 obs. of 46 variables
+  Selection of observations that include mean calculations
+  
+refineData 
+  10299 obs. of 79 variables
+  Total observations from the selected mean and stardard deviation metrics
+  
+stdData 
+  10299 obs. of 33 variables
+  Selection of observations that include standard deviation calculations
+  
+subjecttest 
+  2947 obs. of 1 variable
+  Identification of subjects per observation in test data
+  
+subjecttrain 
+  7352 obs. of 1 variable
+  Identification of subjects per observation in training data
+  
+testx 
+  2947 obs. of 561 variables
+  Metrics of all activities in test data
+  
+testy 
+  2947 obs. of 1 variable
+  Activity number per test observation
+  
+totalactivity 
+  10299 obs. of 1 variable
+  Table with named activity for each subject
+  
+totalcore 
+  10299 obs. of 561 variables
+  Table with all observed data
+  
+totalsubject 
+  10299 obs. of 1 variable
+  Table with both test and training subject identifiers
+  
+trainx 
+  7352 obs. of 561 variables
+  Metrics of all activities in test data
+  
+trainy 
+  7352 obs. of 1 variable
+  Activity number per test observation
