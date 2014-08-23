@@ -1,13 +1,13 @@
 AveragedResults 
   180 obs. of 81 variables
-  This is average of the selected mean and stard deviation metrics by subject, by activity
+  This is average of the selected mean and stardard deviation metrics by subject, by activity
   
 activity 
-  6 obs. of 2 variables
+  6 obs. of 2 variables (activity_labels.txt)
   List of activity labels
   
 features 
-  561 obs. of 2 variables
+  561 obs. of 2 variables (features.txt)
   Names of each feature that is being measured
   
 finaloutput 
@@ -27,19 +27,19 @@ stdData
   Selection of observations that include standard deviation calculations
   
 subjecttest 
-  2947 obs. of 1 variable
+  2947 obs. of 1 variable (subject_test.txt)
   Identification of subjects per observation in test data
   
 subjecttrain 
-  7352 obs. of 1 variable
+  7352 obs. of 1 variable (subject_train.txt)
   Identification of subjects per observation in training data
   
 testx 
-  2947 obs. of 561 variables
+  2947 obs. of 561 variables (X_test.txt)
   Metrics of all activities in test data
   
 testy 
-  2947 obs. of 1 variable
+  2947 obs. of 1 variable (Y_test.txt)
   Activity number per test observation
   
 totalactivity 
@@ -47,7 +47,7 @@ totalactivity
   Table with named activity for each subject
   
 totalcore 
-  10299 obs. of 561 variables
+  10299 obs. of 561 variables (testx, trainx)
   Table with all observed data
   
 totalsubject 
@@ -55,9 +55,9 @@ totalsubject
   Table with both test and training subject identifiers
   
 trainx 
-  7352 obs. of 561 variables
+  7352 obs. of 561 variables (x_train.txt)
   Metrics of all activities in test data
   
 trainy 
-  7352 obs. of 1 variable
+  7352 obs. of 1 variable (y_train.txt)
   Activity number per test observation
