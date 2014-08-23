@@ -1,0 +1,19 @@
+AveragedResults 180 obs. of 81 variables
+Sresults 180 obs. of 81 variables
+activity 6 obs. of 2 variables
+appendactivity 10299 obs. of 81 variables
+dataset 1461 of 4 variables
+features 561 obs. of 2 variables
+finaloutput 10299 obs. of 81 variables 
+meanData 10299 obs. of 46 variables
+refineData 10299 obs. of 79 variables
+stdData 10299 obs. of 33 variables
+subjecttest 2947 obs. of 1 variable
+subjecttrain 7352 obs. of 1 variable
+testx 2947 obs. of 561 variables
+testy 2947 obs. of 1 variable
+totalactivity 10299 obs. of 1 variable
+totalcore 10299 obs. of 561 variables
+totalsubject 10299 obs. of 1 variable
+trainx 7352 obs. of 561 variables
+trainy 7352 obs. of 1 variable
